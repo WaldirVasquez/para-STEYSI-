@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>❤️ </title>
+    <style>
+        .instruction {
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            margin-top: 20px;
+            font-size: 16px;
+            color: var(--heart-color);
+            animation: pulse 2s infinite;
+            text-align: center;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.7; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.05); }
+            100% { opacity: 0.7; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+        <audio id="bg-music" loop autoplay>
+        <source src="cap.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <h1>¡Feliz San Valentín! ❤️</h1>
+    <div class="container">
+        <div class="envelope-wrapper ">
+            <div class="envelope">
+                <div class="letter">
+                <div class="text">
+                    <strong>Querida Steysi</strong>
+                    <p>
+                        Hoy quiero dedicarte unas palabras que vengan directo del corazón. Eres una chica maravillosa, hermosa por dentro y por fuera, y una persona que realmente vale la pena conocer. Tu sonrisa ilumina cualquier día gris y tu forma de ser inspira a quienes tenemos la suerte de estar cerca de ti. <br><br>
+
+                        Sé que a veces la vida puede parecer difícil o triste, pero quiero que recuerdes que los días mejores siempre llegan, y que no importa lo que pase, siempre podrás contar conmigo. En los momentos felices estaré celebrando contigo, y en los momentos difíciles estaré aquí para escucharte, apoyarte y recordarte lo increíble que eres. <br><br>
+
+                        Eres alguien única: amable, generosa y llena de luz. Nunca olvides que tienes un gran valor, y que tu amistad, tu risa y tu corazón hacen del mundo un lugar mucho mejor. No dejes que los malos momentos te hagan olvidar lo maravillosa que eres. <br><br>
+
+                        Gracias por ser tú, por tu alegría, tu bondad y tu fuerza. Estoy feliz de poder llamarte amiga, y quiero que sepas que siempre tendrás un lugar especial en mi vida. <br><br>
+
+                        Con mucho cariño y amistad sincera,<br>
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+            <div class="tap-right"></div>
+            <div class="tap-left"></div>
+        </div>
+    </div>
+    
+    <div class="instruction">❤️ ¡Da clic al corazón para abrir el sobre! ❤️</div>
+    <div class="instruction">❤️ ¡Luego clic a la carta para leerla! ❤️</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
